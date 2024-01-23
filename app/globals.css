@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-bg {
+  background: url(/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-container {
+  @apply max-w-[1472px] max-[500px]:px-[10px] mx-auto px-10;
+}
+.text-lg-semibold {
+  @apply text-[18px] font-semibold leading-7;
+}
+.display-lg-semibold {
+  @apply text-[48px] font-semibold leading-[60px] tracking-[-0.96px];
+}
+.text-lg-regular {
+  @apply text-[18px] font-normal leading-7;
+}
+.text-md-semibold {
+  @apply text-base font-semibold leading-6;
+}
+.text-md-medium {
+  @apply text-base font-medium leading-6;
+}
+.text-xl-medium {
+  @apply text-[20px] font-medium leading-[30px];
+}
+.text-xs-regular {
+  @apply text-[24px] font-normal leading-8;
+}
+.display-xs-semibold {
+  @apply text-[24px] font-semibold leading-8;
+}
+.text-xl-semibold {
+  @apply text-[20px] font-semibold leading-[30px];
+}
+
+.text-xl-semibold {
+  @apply text-[20px] font-semibold leading-[30px];
+}
+
+button {
+  @apply active:translate-y-[1.2px];
+}
+
+.hero-text {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px; /* 112.5% */
+  letter-spacing: -1.28px;
+}
+
+.mantine-Accordion-chevron[data-rotate] .close-accordion {
+  display: none;
+}
+.mantine-Accordion-chevron {
+  width: 24;
+  height: 24;
+}
+.mantine-Accordion-chevron[data-rotate] .open-accordion {
+  display: block;
+}
+.mantine-Accordion-chevron .open-accordion {
+  display: none;
+}
+.mantine-Accordion-chevron svg.close-accordion {
+  display: block;
+}
