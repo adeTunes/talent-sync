@@ -67,6 +67,7 @@ function Advantage() {
             src={Teams}
             alt="Teams"
             className="w-auto h-[527px] object-cover"
+            loading="lazy"
           />
         </div>
       </div>

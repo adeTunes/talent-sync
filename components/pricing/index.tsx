@@ -35,6 +35,7 @@ function Pricing() {
           src={VideoCall}
           alt="Video call"
           className="w-full max-[600px]:h-[450px] h-full object-cover"
+          loading="lazy"
         />
       </div>
     </section>

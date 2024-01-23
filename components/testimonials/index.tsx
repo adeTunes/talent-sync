@@ -69,6 +69,7 @@ function Testimonial() {
                   height={height}
                   src={src}
                   style={{ width, height, objectFit: "cover" }}
+                  loading="lazy"
                 />
               ))}
             </div>
@@ -81,6 +82,7 @@ function Testimonial() {
                   height={height}
                   src={src}
                   style={{ width, height, objectFit: "cover" }}
+                  loading="lazy"
                 />
               ))}
             </div>
