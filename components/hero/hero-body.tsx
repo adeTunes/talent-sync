@@ -84,7 +84,7 @@ function HeroBody() {
                   src={url}
                   alt="user"
                   className="w-full h-full object-cover"
-                  loading="lazy"
+                  priority
                 />
               </div>
             ))}
